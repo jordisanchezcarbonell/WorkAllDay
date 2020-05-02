@@ -16,6 +16,9 @@
 	use PHPMailer\PHPMailer\PHPMailer;
 	use PHPMailer\PHPMailer\SMTP;
 	use PHPMailer\PHPMailer\Exception;
+if(isset($_POST['Enviar'])) {
+
+		$email=$_POST['email'] ;
 //Create instance of PHPMailer
 	$mail = new PHPMailer();
 //Set mailer to use smtp
@@ -41,9 +44,9 @@
 //Attachment
 	$mail->addAttachment('img/attachment.png');
 //Email body
-	$mail->Body = "<h1>This is HTML h1 Heading</h1></br><p>This is html paragraph</p>";
+	$mail->Body = "<h1>This is HTML h1 Heading</h1></br><p>This is html paragraph ".$_POST['comments']."</p>" ;
 //Add recipient
-	$mail->addAddress('jordigw@gmail.com');
+	$mail->addAddress(	$email);
 //Finally send email
 	if ( $mail->send() ) {
 		echo "Email Sent..!";
@@ -52,3 +55,4 @@
 	}
 //Closing smtp connection
 	$mail->smtpClose();
+}
