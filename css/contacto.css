@@ -1,0 +1,12 @@
+
+.tabla::before{
+    content:"";
+    display: inline-block;
+
+}
+.hola::after{
+
+    content:"";
+    display: inline-block;
+
+}

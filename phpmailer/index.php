@@ -1,3 +1,20 @@
+ <!--BOOSTRAP-->
+ <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous">
+
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous">
+
+
 <?php
 
 
@@ -66,11 +83,21 @@ if(isset($_POST['Enviar'])) {
 	$mail->addAddress("pro.arantxa.ordoyo@gmail.com");
 //Finally send email
 	if ( $mail->send() ) {
-		echo "Email Sent..!";
+
+		
+		//echo '<script language="javascript">alert("Mensaje Enviado");window.location.href="../index.html"</script>';
+		echo '<div class="alert alert-success" role="alert">
+		This is a success alert—check it out!
+	  </div>';
 		$mail->addAddress($email);
 		$mail->Body = "lo que le llega al cliente" ;
 		$mail->send();
+	//	header("location:pagina.php");
 
+	//	header("location:../index.html");
+		//die("Mensaje enviado");
+	
+	
 	}else{
 		echo "Message could not be sent. Mailer Error: "{$mail->ErrorInfo};
 	}
