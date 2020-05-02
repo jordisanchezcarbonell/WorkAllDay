@@ -82,19 +82,18 @@ if(isset($_POST['Enviar'])) {
 //AQUI VA NUESTRO CORREO
 	$mail->addAddress("pro.arantxa.ordoyo@gmail.com");
 //Finally send email
+
 	if ( $mail->send() ) {
 
 		
 		//echo '<script language="javascript">alert("Mensaje Enviado");window.location.href="../index.html"</script>';
-		echo '<div class="alert alert-success" role="alert">
-		This is a success alert—check it out!
-	  </div>';
+
 		$mail->addAddress($email);
 		$mail->Body = "lo que le llega al cliente" ;
 		$mail->send();
 	//	header("location:pagina.php");
 
-	//	header("location:../index.html");
+		header("location:../index.html");
 		//die("Mensaje enviado");
 	
 	
