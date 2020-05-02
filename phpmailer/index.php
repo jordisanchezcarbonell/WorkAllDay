@@ -1,4 +1,8 @@
 <?php
+
+
+//CONFIGURAR PROP EMAIL
+
 /*##########Script Information#########
   # Purpose: Send mail Using PHPMailer#
   #          & Gmail SMTP Server 	  #
@@ -20,7 +24,14 @@ if(isset($_POST['Enviar'])) {
 
 		$email=$_POST['email'] ;
 //Create instance of PHPMailer
-	$mail = new PHPMailer();
+	$mail = new PHPMailer(true);
+	$mail->SMTPOptions = array(
+		'ssl' => array(
+		'verify_peer' => false,
+		'verify_peer_name' => false,
+		'allow_self_signed' => true
+		)
+	);
 //Set mailer to use smtp
 	$mail->isSMTP();
 //Define smtp host
@@ -44,12 +55,17 @@ if(isset($_POST['Enviar'])) {
 //Attachment
 	$mail->addAttachment('img/attachment.png');
 //Email body
-	$mail->Body = "<h1>This is HTML h1 Heading</h1></br><p>This is html paragraph ".$_POST['comments']."</p>" ;
+	$mail->Body = "<h1>This is HTML h1 Heading</h1></br><p>This is html paragraph ".$email.$_POST['comments'].$_POST['first_name']."</p>" ;
 //Add recipient
-	$mail->addAddress(	$email);
+//AQUI VA NUESTRO CORREO
+	$mail->addAddress("kazukunsc2@gmail.com");
 //Finally send email
 	if ( $mail->send() ) {
 		echo "Email Sent..!";
+		$mail->addAddress($email);
+		$mail->Body = "lo que le llega al cliente" ;
+		$mail->send();
+
 	}else{
 		echo "Message could not be sent. Mailer Error: "{$mail->ErrorInfo};
 	}

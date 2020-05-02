@@ -2,8 +2,8 @@
 if(isset($_POST['email'])) {
 
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-$email_to = "pro.arantxa.ordoyo.com";
-$email_subject = "pro.arantxa.ordoyo.com";
+$email_to = "pro.arantxa.ordoyo@gmail.com";
+$email_subject = "pro.arantxa.ordoyo@gmail.com";
 
 // Aquí se deberían validar los datos ingresados por el usuario
 if(!isset($_POST['first_name']) ||
@@ -29,8 +29,13 @@ $email_message .= "Comentarios: " . $_POST['comments'] . "\n\n";
 $headers = 'From: '.$email_to."\r\n".
 'Reply-To: '.$_POST['email'] ."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
-
-echo "¡El formulario se ha enviado con éxito!";
+;
+if(@mail($email_to, $email_subject, $email_message, $headers))
+{
+  echo "Mail Sent Successfully";
+}else{
+  echo "Mail Not Sent".@mail($email_to, $email_subject, $email_message, $headers);
+}
+//echo "¡El formulario se ha enviado con éxito!";
 }
 ?>
