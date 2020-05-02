@@ -1,3 +1,23 @@
-.color{
-    color:red;
+.navbar{
+    color:black!important;
 }
+
+.navbar-dark .navbar-brand{
+
+    color:black!important;
+}
+
+
+.nav-link:hover  {
+  
+        
+    border-top:3px solid yellowgreen;
+    border-bottom:3px solid yellowgreen;
+     
+}
+.nav-link{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+

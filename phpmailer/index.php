@@ -55,10 +55,15 @@ if(isset($_POST['Enviar'])) {
 //Attachment
 	$mail->addAttachment('img/attachment.png');
 //Email body
-	$mail->Body = "<h1>This is HTML h1 Heading</h1></br><p>This is html paragraph ".$email.$_POST['comments'].$_POST['first_name']."</p>" ;
-//Add recipient
+	$mail->Body = "<h1>This is HTML h1 Heading</h1></br><p>This is html paragraph </br></p>".
+	"<br><b> Nombre: </b> ".$_POST['first_name'].
+	"<br><b> Apellido: </b>".$_POST['last_name']."</br>".
+	"<br><b> Email: </b>".$email.
+	"<br><b> Telefono: </b>".$_POST['telephone'].
+	"<br><b> Descripcion: </b>".$_POST['comments'] ;
+//Add recipient 
 //AQUI VA NUESTRO CORREO
-	$mail->addAddress("kazukunsc2@gmail.com");
+	$mail->addAddress("pro.arantxa.ordoyo@gmail.com");
 //Finally send email
 	if ( $mail->send() ) {
 		echo "Email Sent..!";
