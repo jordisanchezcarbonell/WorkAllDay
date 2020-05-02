@@ -1,13 +1,22 @@
-function sendEmail() {
-	Email.send({
-	Host: "smtp.gmail.com",
-	Username : "kazukunsc2@gmail.com",
-	Password : "Yokazukun23",
-	To : 'kazukunsc2@gmail.com',
-	From : "pro.arantxa.ordoyo@gmail.com",
-	Subject : "PRUEBA",
-	Body : "CUAL ES TU CALLE ?",
-	}).then(
-		message => alert("mail sent successfully")
-	);
-}
+
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.ml2',
+    opacity: 0,
+    duration: 600,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+
