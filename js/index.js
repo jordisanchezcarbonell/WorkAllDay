@@ -1,5 +1,5 @@
 
-// Wrap every letter in a span
+// Wrap every letter in a span   (el, i) => 70*i
 var textWrapper = document.querySelector('.ml2');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -29,7 +29,7 @@ var statSend = false;
    swal({
   title: 'Enviando',
   text: 'Por Favor Espere',
-  timer: 30000,
+  timer: 1000,
  // imageUrl: "cargando.gif", si quieres agregarle una imagen //personalizada
  // imageWidth: 400, anchura de la img
  // imageHeight: 200, alto de la img

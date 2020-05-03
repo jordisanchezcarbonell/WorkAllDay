@@ -1,7 +1,28 @@
 
 .site-footer{
-    background-color: aquamarine !important;
+  
+    width: 100%;
+    position: relative;
+    max-width: 1400px;
+    height: 100% !important;
+min-height: 100% !important; 
+
+
+
+    padding:10px 0 ;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+
+    text-align: center;
+    margin: 0 auto  ;
+
+    background-color:#26272b;
+
+
 }
+
+/*Si no hacemos margenes
 .icono{
 
     text-align: right!important;
@@ -11,14 +32,12 @@
 
 
 
-.site-footer
-{
-  background-color:#26272b;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
-}
+
+*/
+
+
+
+
 .site-footer hr
 {
   border-top-color:#bbb;
@@ -60,34 +79,26 @@
   border-radius:100%;
   background-color:#33353d
 }
+
+/*Letras copyright*/
 .copyright-text
 {
-  margin-left: 30px !important;
+text-align: left;
+margin-left: 5px !important;
 }
 
 
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
-.espacio{
 
+
+/* Si no hacemos los margenes quitar margin
+ 
+ */ 
+.espacio{  
     width: 100%!important;
-     min-width: 100%!important;
+    min-width: 100%!important;
+
+margin-top: 55px;
+ margin-bottom: 25px;
 }
 .social-icons
 {
@@ -161,5 +172,34 @@
     display:block;
     margin-right:0;
     font-weight:600
+    
+  }
+}
+
+
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center!important;
+    float: center!important;
+  
+  }
+  .social-icons {
+    text-align:center!important;
+    float: center!important;
+
   }
 }

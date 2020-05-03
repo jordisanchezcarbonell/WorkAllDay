@@ -1,54 +1,134 @@
-body{
-    height: 100%;
-    min-height: 100%;
+
+.header-general {
+  text-align: center;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  position: relative;
 }
-.prueba{
-   min-height: 90vh !important;
-}
+
+/*NAV */ 
 
 nav{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Playfair Display', serif;
+
 
 }
 
-.info-color{
-  background: aquamarine!important;
+.navbar-brand{
+
+font-size: 60px!important;
+}
+.nav-link{
+  color:black!important;
+}
+
+.nav-general{
+background: white!important;
+
+height: 100% !important;
+min-height: 100% !important; 
+clear: both;
+width: 100%;
+margin: 0 auto 0;
+position: relative;
+max-width: 1400px;
 }
 .nav-link:hover  {
-  
-        
-    border-top:3px solid yellowgreen;
-    border-bottom:3px solid yellowgreen;
-     
+
+      
+  border-top:3px solid hsla(0, 7%, 45%, 0.274);
+  border-bottom:3px solid hsla(0, 7%, 45%, 0.274);
+   
 }
 
 
-  
+
 @media (max-width: 600px) {
 
-  .info-color{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 0;
-    height: 70px;
-    align-items: center;
+.nav-general{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  height: 70px;
+  align-items: center;
+}
+
+.nav-links {
+  margin-left: 40px;
+}
+
+}
+
+
+/**/
+.GlobalBody{
+  min-height: 100vh !important;
+position: relative;
+ margin-bottom: 110px;
+
+}
+.centrado{
+  clear: both!important;
+width: 100% !important;
+margin: 0 auto 0 !important;
+position: relative !important;
+max-width: 1400px !important;
+
+}
+.foto{
+  min-width: 1400px!important;
+position: relative;
+  height: 600px;
+}
+.texto{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 130px;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.TextoPruebaAbout{
+  
+  width: 100%!important;
+  min-width: 100%!important;
+  font-family: 'Playfair Display', serif;
+float:center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.texto3{
+
+ 
+  
+  /* IMPORTANTE */
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+hr {
+  height: 80%;
   }
-
-  .nav-links {
-    margin-left: 40px;
-}
-
-}
 
 .ml2 {
-    font-weight: 900;
-    font-size: 3.5em;
-  }
-  
-  .ml2 .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  color:black!important;
+  display: inline-block;
+  line-height: 1em;
+}
 
 
 
