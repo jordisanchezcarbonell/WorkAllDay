@@ -79,7 +79,8 @@ if(isset($_POST['Enviar'])) {
 	"<br><b> Telefono: </b>".$_POST['telephone'].
 	"<br><b> Descripcion: </b>".$_POST['comments'] ;
 //Add recipient 
-//AQUI VA NUESTRO CORREO
+//AQUI VA NUESTRO CORREO 
+//CAMBIAAAR 
 	$mail->addAddress("pro.arantxa.ordoyo@gmail.com");
 //Finally send email
 
