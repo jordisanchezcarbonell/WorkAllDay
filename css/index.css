@@ -3,7 +3,7 @@ body{
     min-height: 100%;
 }
 .prueba{
-   min-height: 100vh !important;
+   min-height: 90vh !important;
 }
 
 nav{
@@ -24,40 +24,20 @@ nav{
 
 
   
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
   .info-color{
-    position: absolute!important;
-    right: 0!important;
-    top: 0!important;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
   }
-  .info-color a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .info-color a.icon {
-    float: right;
-    display: block;
-  }
+
+  .nav-links {
+    margin-left: 40px;
 }
-@media screen and (max-width: 600px) {
-  nav.responsive {position: relative;}
-  nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  nav .dropdown {float: none;}
-  nav .dropdown-content {position: relative;}
-  nav .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
+
 }
 
 .ml2 {
