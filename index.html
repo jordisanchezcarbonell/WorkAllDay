@@ -13,6 +13,7 @@
   <!--CSS-->
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <LINK REL=StyleSheet HREF="css/footer.css" TYPE="text/css" MEDIA=screen>
+    <link rel="stylesheet" type="text/css" href="css/contacto2.css">
 
 
   <!--BOOSTRAP-->
@@ -59,7 +60,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="html/contacto.html">
+            <a class="nav-link" href="#Enlace_contacto">
               Contacto</a>
           </li>
           <!--  <li class="nav-item dropdown">
@@ -77,15 +78,13 @@
   </header>
   <div class="GlobalBody">
     <div class="centrado">
-      <img class="foto " src="img/about.jpg" alt="Smiley face">
+      <img class="foto " src="img/about.jpg"  sizes="(min-width: 576px) 33.3vw, 100vw" >
 
       <p class=texto> About Us</p>
     </div>
     <div class="centrado">
-      <hr>
+            <hr>
 
-      
-      
       <p class="TextoPruebaAbout ">
         01 about
       </p>
@@ -93,6 +92,56 @@
 
       <p class="texto3"> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
   
+      <p class="TextoPruebaAbout ">
+        02 proyectos
+      </p>
+
+
+    
+
+
+
+
+
+      <p class="TextoPruebaAbout " id="Enlace_contacto">
+        03 Contacto
+      </p>
+
+
+
+      <div class="contact" id="contact" name=contacto>
+<div>
+      <form id="contact-form" method="post" action="phpmailer/index.php" name="contact-form" role="form">
+        <div class="col-md-offset-1 col-md-5">
+          <fieldset>
+            <input name="first_name" type="text" id="first_name" size="30" placeholder="Name">
+            <br>
+            <input name="last_name" type="text" id="last_name" size="30" placeholder="Last Name">
+            <br>
+            <input name="email" type="text" id="email" size="30" placeholder="Email">
+            <br>
+            <input name="telephone" type="text" id="telephone" size="30" placeholder="Phone">
+            <br>
+           
+          </fieldset>
+        </div>
+        <div class="col-md-5">
+          <fieldset>
+            <textarea name="comments" cols="40" rows="20" id="comments" placeholder="Message"></textarea>
+          </fieldset>
+        </div>
+        <div class="col-md-offset-1 col-md-10">
+          <fieldset>
+            <button type="submit" class="btn btn-lg"  name="Enviar" id="form_button" value="Submit" onclick="checkSubmit();" >Send Message</button>
+          </fieldset>
+        </div>
+      </form>
+
+
+    </div>
+
+  </div>
+
   </div>
     <!-- <h1 class="ml2 ">see mornings</h1> -->
 

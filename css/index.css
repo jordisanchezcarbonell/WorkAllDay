@@ -61,6 +61,8 @@ max-width: 1400px;
 }
 
 
+
+
 /**/
 .GlobalBody{
   min-height: 100vh !important;
@@ -78,6 +80,7 @@ max-width: 1400px !important;
 }
 .foto{
   min-width: 1400px!important;
+  
 position: relative;
   height: 600px;
 }
@@ -104,9 +107,7 @@ float:center;
 
 
 .texto3{
-
  
-  
   /* IMPORTANTE */
   width: 350px;
   margin-left: auto;
