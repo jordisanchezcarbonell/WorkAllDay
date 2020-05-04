@@ -1,4 +1,6 @@
-
+AOS.init({
+  duration: 1200,
+})
 // Wrap every letter in a span   (el, i) => 70*i
 var textWrapper = document.querySelector('.ml2');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -66,3 +68,5 @@ $('#circleDrop').click(function(){
   $('.card-middle').slideToggle();
   $('.close').toggleClass('closeRotate');
 });
+
+

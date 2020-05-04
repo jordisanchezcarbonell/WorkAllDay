@@ -15,6 +15,7 @@
     <LINK REL=StyleSheet HREF="css/footer.css" TYPE="text/css" MEDIA=screen>
     <link rel="stylesheet" type="text/css" href="css/contacto2.css">
     <link rel="stylesheet" type="text/css" href="css/Cards.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script src="https://unpkg.com/sweetalert2@7.15.1/dist/sweetalert2.all.js"></script>
     <!--BOOSTRAP-->
@@ -88,42 +89,42 @@
       </nav>
     </header>
     <div class="GlobalBody">
-      <div class="centrado">
+      <div class="centrado" data-aos=fade-down>
         <img class="foto" src="img/about.jpg" height="100px">
 
-        <p class=texto> About Us</p>
+        <p class=texto data-aos=fade-down> About Us</p>
       </div>
       <div class="centrado">
        <!-- <hr >-->
 
        
-       <div class="divisor">
+       <div class="divisor" data-aos=fade-down>
         <div class="divider div-transparent div-arrow-down"></div>
       
       
-      </div>
-        <p class="TextoPruebaAbout">
+      </div  >
+        <p class="TextoPruebaAbout"data-aos=fade-down>
           01 about
         </p>
 
 
-        <p class="texto3"> I'm a paragraph. Click here to add your own text and
+        <p class="texto3" data-aos=fade-down> I'm a paragraph. Click here to add your own text and
           edit me. It’s easy. Just click “Edit Text” or double click me to add
           your own content and make changes to the font. I’m a great place for
           you to tell a story and let your users know a little more about you.</p>
 
           
-        <div class="divisor">
+        <div class="divisor"data-aos=fade-down>
           <div class="divider div-transparent div-arrow-down"></div>
         
         
         </div>
-        <p class="TextoPruebaAbout">
+        <p class="TextoPruebaAbout" data-aos=fade-down>
           02 proyectos
         </p>
 
         <!-- codigo de cards proyecto -->
-        <div class="wrapper">
+        <div class="wrapper" data-aos=fade-down>
           <div class="card">
             <input type="checkbox" id="card1" class="more" aria-hidden="true">
             <div class="content">
@@ -147,7 +148,7 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" >
             <input type="checkbox" id="card2" class="more" aria-hidden="true">
             <div class="content">
               <div class="front" style="background-image:
@@ -196,18 +197,18 @@
 
         </div>
 
-        <div class="divisor">
+        <div class="divisor"data-aos=fade-down >
           <div class="divider div-transparent div-arrow-down"></div>
         
         
         </div>
 
-        <p class="TextoPruebaAbout" id="Enlace_contacto ">
+        <p class="TextoPruebaAbout" id="Enlace_contacto " data-aos=fade-down>
           03 Contacto
         </p>
 
 
-        <div class="container paddi">
+        <div class="container paddi" data-aos=fade-down>
           <div class="row">
             <div class="contact" id="contact" name=contacto>
               <div class="tamañodivdecontacos">
@@ -218,18 +219,18 @@
                     <fieldset>
                       <input name="first_name" type="text" id="first_name"
                         size="30"
-                        placeholder="Name">
+                        placeholder="Nombre">
                       <br>
                       <input name="last_name" type="text" id="last_name"
                         size="30"
-                        placeholder="Last Name">
+                        placeholder="Apellidos">
                       <br>
                       <input name="email" type="text" id="email" size="30"
                         placeholder="Email">
                       <br>
                       <input name="telephone" type="text" id="telephone"
                         size="30"
-                        placeholder="Phone">
+                        placeholder="Telefono">
                       <br>
 
                     </fieldset>
@@ -242,8 +243,7 @@
                     </fieldset>
                     <button type="submit" class="btn btn-lg" name="Enviar"
                     id="form_button" value="Submit"
-                    onclick="checkSubmit();">Send
-                    Message</button>
+                    onclick="checkSubmit();">Enviar mensaje</button>
                   </div>
                  
                   <!--
@@ -316,16 +316,18 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
 
 
 
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="js/index.js"></script>
+
   </body>
 
 </html>
