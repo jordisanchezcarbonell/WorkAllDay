@@ -60,9 +60,9 @@ if(isset($_POST['Enviar'])) {
 //Port to connect smtp
 	$mail->Port = "587";
 //Set gmail username
-	$mail->Username = "kazukunsc2@gmail.com";
+	$mail->Username = "kazukunstatexhackeronetester@gmail.com";
 //Set gmail password
-	$mail->Password = "Yokazukun23";
+	$mail->Password = "Kazukun23";
 //Email subject
 	$mail->Subject = "Test email using PHPMailer";
 //Set sender email
@@ -90,7 +90,13 @@ if(isset($_POST['Enviar'])) {
 		//echo '<script language="javascript">alert("Mensaje Enviado");window.location.href="../index.html"</script>';
 
 		$mail->addAddress($email);
-		$mail->Body = "lo que le llega al cliente" ;
+		$mail->Body = "Hola " .$_POST['first_name'].",<br>".
+		"Gracias por contactarnos! Nuestros representantes de soporte revisarán tu mensaje y lo reenviarán a la mejor indicada.".
+		" <br>Nos pondremos en contacto en un plazo de 48 horas.".
+		
+		"<br>Si tu problema no puede esperar, también puedes comunicarse con nosotros a llamando al 555-555-555-5555.".
+		"<br>Un saludo cordial, ".
+		"<br>[Tu nombre]" ;
 		$mail->send();
 	//	header("location:pagina.php");
 
