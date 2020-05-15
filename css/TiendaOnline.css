@@ -1,0 +1,36 @@
+.TiendaOnlineTitle{
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -100%)!important;
+    font-size:5vw !important;
+    font-family: 'Playfair Display', serif;
+}
+
+
+  
+.prue{
+    min-height:45vw;
+      background-size: 25px 50px;
+      background-size: 100% 100%;
+      background-image: url(../img/tiendaOnline.jpg);
+      color:rgba(255, 255, 255, 0.788);
+
+      clear: both!important;
+      width: 100% !important;
+      margin: 0 auto 0 !important;
+      position: relative !important;
+      max-width: 1400px !important;
+    
+    
+    }
+    .prue:before {
+        content:'';
+        position: absolute;
+            top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.6);
+    }

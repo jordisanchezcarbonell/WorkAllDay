@@ -210,3 +210,40 @@
     background: #355cc9;
   }
   
+
+
+
+
+
+
+
+
+
+  
+  a:link:hover{
+    color:black;
+  }
+
+  a:link {text-decoration: none;
+  color:black }
+  .centrar{
+    text-align: center;
+    -webkit-box-shadow: 35px 47px 145px -105px rgba(0,0,0,1);
+    -moz-box-shadow: 35px 47px 145px -105px rgba(0,0,0,1);
+    box-shadow: 35px 47px 145px -105px rgba(0,0,0,1);
+    color:black;
+  }
+.textoCard{
+  color:black;
+}
+.textoCard:hover{
+  color:black;
+}
+  .centrar:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .par{
+    color:black;
+
+    border-top: 3px #B22222 solid;
+  }

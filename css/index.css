@@ -99,6 +99,7 @@ max-width: 1400px !important;
   min-width: 100%!important;
   font-family: 'Playfair Display', serif;
 float:center;
+font-size: 1.7vw;
   text-align: center;
   display: flex;
   justify-content: center;
