@@ -87,8 +87,8 @@ max-width: 1400px !important;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:1000% !important;
+  transform: translate(-50%, -100%)!important;
+  font-size:9vw !important;
   font-family: 'Playfair Display', serif;
 
 }
