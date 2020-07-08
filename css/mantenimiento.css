@@ -8,10 +8,20 @@
     font-family: 'Playfair Display', serif;
 }
 
+.DescTitle{
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -100%)!important;
+    font-size:1.5vw !important;
+    font-family: 'Playfair Display', serif;
+    width: 90%;
+}
 
   
 .prue{
-    min-height:45vw;
+    min-height:40vw;
       background-size: 25px 50px;
       background-size: 100% 100%;
       background-image: url(../img/mantenimiento2.jpg);
