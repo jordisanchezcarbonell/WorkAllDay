@@ -1,0 +1,14 @@
+{
+  "es": {
+    "about": "01 about",
+    "prueba2": ""
+  },
+  "en": {
+    "about": "I love You",
+    "prueba2": "This text is in english"
+  },
+   "js": {
+    "about": "I love You jordi",
+    "prueba2": "This text is in english"
+  }
+}
