@@ -3,7 +3,7 @@
   
     width: 100%;
     position: relative;
-    max-width: 1400px;
+    max-width:80% !important;
     height: 100% !important;
 min-height: 100% !important; 
 
