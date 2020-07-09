@@ -7,9 +7,35 @@
     font-size:5vw !important;
     font-family: 'Playfair Display', serif;
 }
+.FotoOrdenador{
+width: 100%;
+}
+.DivTiendaInfo{
+margin-top: 2vw !important;
+margin-bottom: 2vw !important;
+text-align: center;
 
+}
+.DivEntradaTienda{
+    margin-bottom: 5vw !important;
 
-  
+}
+.EntradaTienda{
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vw;
+
+}
+.fotoIconosTienda{
+    display:block;
+    margin:auto;
+    height: 5vw;
+    width: 5vw;
+
+}
+
 .prue{
     min-height:45vw;
       background-size: 25px 50px;
