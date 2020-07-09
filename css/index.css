@@ -80,7 +80,9 @@ max-width:80% !important;
 }
 
 
-
+.cardsGnerala{
+  margin-top: -5%;
+}
 
 
 .texto{
@@ -141,7 +143,7 @@ hr {
 
 .divisor
 {
-	padding-bottom: 90px;
+	padding-bottom: 5%;
 }
 
 .divider

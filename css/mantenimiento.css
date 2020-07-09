@@ -7,7 +7,46 @@
     font-size:5vw !important;
     font-family: 'Playfair Display', serif;
 }
+.botonInfo{
+    color: #fff!important;
+    background: #B22222;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    min-width: 170px;
+    max-width: 100%;
+    padding: 0.8vw ;
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 50px;
+    
+}
+.botPrueba{
+    margin-bottom: 5%!important;
+}
+.margenmant{
+    border-bottom: 1px rgba(128, 128, 128, 0.308) solid;
+    width: 100%;
+font-size: 1.2vw;
+}
+.TituloMAnt{
+    background-color: #B22222;
+    color: white;
+    padding-bottom: 1vw;
+}
+.PrecioMant{
 
+    background-color: rgba(207, 203, 203, 0.705);
+    margin-top: -2.6%;
+}
+.MantTitulo{
+    font-size: 2vw;
+}
+.linea{
+margin-top: 0vw;
+    border-top: 3px #B22222 solid;
+  }
 .DescTitle{
 
     position: absolute;
