@@ -176,16 +176,16 @@
 #carrousel .owl-carousel img {
     max-height: 100%;
     max-width: 100%;
-    width: auto;
-    height: auto;
+    height:20vw!important; 
+
+    width: 20vw!important;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    height: 300px;
-    object-fit: cover;
+       object-fit: cover;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;

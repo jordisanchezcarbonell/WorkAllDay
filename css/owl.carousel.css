@@ -139,7 +139,8 @@
   .owl-carousel .owl-item .owl-lazy[src^=""], .owl-carousel .owl-item .owl-lazy:not([src]) {
     max-height: 0; }
   .owl-carousel .owl-item img.owl-lazy {
-    transform-style: preserve-3d; }
+    transform-style: preserve-3d;
+   }
 
 /*
  * 	Owl Carousel - Video Plugin
