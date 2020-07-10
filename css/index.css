@@ -95,6 +95,16 @@ max-width:80% !important;
 
 }
 
+.texto2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%)!important;
+  font-size:2vw !important;
+  font-family: 'Playfair Display', serif;
+
+}
+
 .TextoPruebaAbout{
   
   width: 100%!important;
