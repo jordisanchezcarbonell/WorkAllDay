@@ -294,13 +294,18 @@
 
 #carrousel .owl-nav .owl-next {
     position: absolute;
-right: 0px;
-top: 10px;
-background: transparent !important;
-color: #000 !important;
-font-size: 40px !important;
+    right: 0px;
+    top: 10px;
+    background: transparent !important;
+    color: #000 !important;
+    font-size: 40px !important;
 }
 
 #carrousel .owl-nav .owl-next:hover {
     color: #adadad !important;
+}
+
+.colorpruebadelcarrousel {
+    color: red;
+    font-size: 1vw;
 }
