@@ -336,7 +336,7 @@
     max-width: 100%;
     width: auto;
     height: auto;
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     bottom: 0;
     left: 0;
@@ -450,13 +450,36 @@
 
 #carrousel .owl-nav .owl-next {
     position: absolute;
-right: 0px;
-top: 10px;
-background: transparent !important;
-color: #000 !important;
-font-size: 40px !important;
+    right: 0px;
+    top: 10px;
+    background: transparent !important;
+    color: #000 !important;
+    font-size: 40px !important;
 }
 
 #carrousel .owl-nav .owl-next:hover {
     color: #adadad !important;
 }
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.owl-carousel .caption {
+    text-align: center;
+}
+
+.owl-carousel div h2,
+.owl-carousel div .textoverlay {
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    display: block;
+}
+
