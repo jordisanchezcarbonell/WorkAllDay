@@ -174,18 +174,17 @@
 }
 
 #carrousel .owl-carousel img {
-    max-height: 100%;
-    max-width: 100%;
-    height:20vw!important; 
 
-    width: 15vw!important;
+    height: 20vw !important;
+
+    width: 200vw !important;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-       object-fit: cover;
+    object-fit: cover;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
