@@ -332,6 +332,7 @@
 }
 
 #carrousel .owl-carousel img {
+    margin-top: 5vw;
     max-height: 100%;
     max-width: 100%;
     width: auto;
@@ -376,6 +377,7 @@
 }
 
 #carrousel .owl-carousel .owl-stage-outer {
+    margin-top: 5vw;
     padding-bottom: 10px;
 }
 
@@ -482,4 +484,3 @@
     font-size: 12px;
     display: block;
 }
-

@@ -111,17 +111,19 @@ nav {
   position: absolute;
   top: 20%;
   left: 18%;
-width: 60%;
-text-align: center;
-  font-size: 2vw !important;
+  width: 60%;
+  text-align: center;
+  font-size: 1.5vw !important;
   font-family: 'Playfair Display', serif;
 
 }
-.brPRueba{
+
+.brPRueba {
   margin-top: 1vw;
   display: inline-block;
 
 }
+
 .TextoPruebaAbout {
 
   width: 100% !important;
