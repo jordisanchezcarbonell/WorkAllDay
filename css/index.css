@@ -113,7 +113,7 @@ nav {
   left: 18%;
   width: 60%;
   text-align: center;
-  font-size: 1.5vw !important;
+  font-size: 1.2vw !important;
   font-family: 'Playfair Display', serif;
 
 }
@@ -209,3 +209,8 @@ hr {
 
 
 /**/
+
+
+.colorenlace{
+  color: black;
+}
