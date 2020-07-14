@@ -47,6 +47,5 @@ function coverFlowEfx(e) {
     .eq(idx - 2)
     .addClass("smallLeft");
 }
-/*
+
 $(".owl-carousel").trigger("play.owl.autoplay", [2000, 2000]);
-*/
