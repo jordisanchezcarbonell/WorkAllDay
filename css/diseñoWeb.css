@@ -2,19 +2,24 @@
 
     position: absolute;
     top: 30%;
-    left: 50%;
+    left:30%;
     transform: translate(-50%, -100%)!important;
-    font-size:5vw !important;
+    font-size:3vw !important;
     font-family: 'Playfair Display', serif;
+    color: white!important;
+width: 50%;
 }
 
+.DivRowDiseño{
+    text-align: center;
 
-  
+}
+ 
 .prue{
-    min-height:45vw;
+    min-height:40vw;
       background-size: 25px 50px;
       background-size: 100% 100%;
-      background-image: url(../img/web2.jpg);
+      background-image: url(../img/DI2.jpg);
       color:rgba(255, 255, 255, 0.788);
 
       clear: both!important;
@@ -32,5 +37,11 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: rgba(0,0,0,0.6);
+        background-color: rgba(82, 79, 79, 0);
+    }
+    .fotoIconosDiseño{
+        display:block;
+        margin:auto;
+        height: 5vw;
+        width: 5vw;
     }
