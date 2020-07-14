@@ -13,7 +13,7 @@
       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous">
-
+ 		<h1>hola</h1>
 
 <?php
 
@@ -73,11 +73,13 @@ if(isset($_POST['Enviar'])) {
 	$mail->addAttachment('img/attachment.png');
 //Email body
 	$mail->Body = "<h1>This is HTML h1 Heading</h1></br><p>This is html paragraph </br></p>".
-	"<br><b> Nombre: </b> ".$_POST['first_name'].
+	"<br><b> Nombre: </b> ".$_POST['name'].
 	"<br><b> Apellido: </b>".$_POST['last_name']."</br>".
 	"<br><b> Email: </b>".$email.
-	"<br><b> Telefono: </b>".$_POST['telephone'].
-	"<br><b> Descripcion: </b>".$_POST['comments'] ;
+	"<br><b> Telefono: </b>".$_POST['phone'].
+		"<br><b> subject: </b>".$_POST['subject'].
+
+	"<br><b> content: </b>".$_POST['content'] ;
 //Add recipient 
 //AQUI VA NUESTRO CORREO 
 //CAMBIAAAR 
@@ -109,4 +111,6 @@ if(isset($_POST['Enviar'])) {
 	}
 //Closing smtp connection
 	$mail->smtpClose();
+	echo "Message could not be sent. Mailer Error:";
+	
 }
