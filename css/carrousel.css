@@ -172,12 +172,14 @@
     margin-bottom: 10px;
     font-size: 30px;
 }
-
+.imgP{
+    width: 130vw!important;
+}
 #carrousel .owl-carousel img {
 
     height: 20vw !important;
 
-    width: 200vw !important;
+    width: auto !important;
     position: absolute;
     top: 0;
     bottom: 0;
