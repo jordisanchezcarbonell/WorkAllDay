@@ -125,7 +125,7 @@ margin-top: -1.2vw!important;
   top: 20%;
   left: 47%;
   transform: translate(-50%, -100%)!important;
-  font-size:4.5vw !important;
+  font-size:3.5vw !important;
   font-family: Georgia, 'Times New Roman', Times, serif;
   width: 90%;
 }
@@ -133,10 +133,11 @@ margin-top: -1.2vw!important;
 
 
 .FotoContacto{
-  min-height:45vw;
+  min-height:75vh;
+
     background-size: 25px 50px;
     background-size: 100% 100%;
-    background-image: url(../img/contact2.jpg);
+    background-image: url(../img/contact4.jpg);
     color:rgba(255, 255, 255, 0.788);
 
     clear: both!important;
