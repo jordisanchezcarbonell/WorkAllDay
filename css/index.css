@@ -211,6 +211,15 @@ hr {
 /**/
 
 
-.colorenlace{
+.colorenlace {
   color: black;
+}
+
+
+
+
+select {
+  height: 50px;
+  line-height: 50px;
+  font-size: 12pt;
 }
