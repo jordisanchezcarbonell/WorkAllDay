@@ -1,18 +1,18 @@
 .DiseñoTitle{
 
     position: absolute;
-    top: 30%;
-    left:30%;
+    top: 40%;
+    left:27%;
     transform: translate(-50%, -100%)!important;
     font-size:3vw !important;
     font-family: 'Playfair Display', serif;
     color: white!important;
-width: 50%;
+width: 45%;
 }
 
 .DivRowDiseño{
     text-align: center;
-
+margin-top: 5vw;
 }
  
 .prue{
@@ -30,10 +30,46 @@ width: 50%;
     
     
     }
+ .TituloDise2{
+     margin-top: 2vw;
+    text-align: center!important;
+    width: 100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 2vw;
+
+ }
+    .DesDiseño{
+        text-align: center;
+        margin-left:auto!important ;
+        margin-right:auto!important ;
+        width: 50%;
+    }
+    hr.vertical {
+        width: 2px;
+        height: 2vw;
+        background-color: #c59100;
+        margin-top: 3vw
+        ;
+        /* or height in PX */
+      }
+    .TituloDiseño{
+        text-align: center!important;
+        width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2vw;
+    font-size: 1vw;
+    }
+    .LineaDiseño{
+        width:10%;
+        background: #c59100!important;
+
+    }
     .DiseloTitl2{
+        margin-top: 3vw;
+
         color: white!important;
         position: absolute;
-        top:45%;
+        top:50%;
         left: 20%;
         width: 30%;
         transform: translate(-50%, -100%)!important;
