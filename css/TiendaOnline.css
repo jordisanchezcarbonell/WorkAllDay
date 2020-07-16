@@ -1,140 +1,144 @@
-.TiendaOnlineTitle{
+.TiendaOnlineTitle {
 
     position: absolute;
     top: 30%;
-    left:30%;
-    transform: translate(-50%, -100%)!important;
-    font-size:3vw !important;
+    left: 30%;
+    transform: translate(-50%, -100%) !important;
     font-family: 'Playfair Display', serif;
-    color: white!important;
-width: 50%;
+    color: white !important;
+    width: 50%;
 
 }
 
-.TiendaOnlineTitleDesc2{
-    color: white!important;
+.TiendaOnlineTitleDesc2 {
+    color: white !important;
     position: absolute;
-    top:45%;
+    top: 45%;
     left: 20%;
     width: 30%;
-    transform: translate(-50%, -100%)!important;
-    font-size:1.4vw !important;
+    transform: translate(-50%, -100%) !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-.FotoOrdenador{
-width: 100%;
+
+.FotoOrdenador {
+    width: 100%;
 
 }
-.DivTiendaInfo{
-margin-top: 2vw !important;
-margin-bottom: 2vw !important;
-text-align: center;
-width: 85%;
-margin-left: auto!important;
-margin-right: auto!important;
+
+.DivTiendaInfo {
+    margin-top: 2vw !important;
+    margin-bottom: 2vw !important;
+    text-align: center;
+    width: 85%;
+    margin-left: auto !important;
+    margin-right: auto !important;
 
 }
-.DivEntradaTienda{
+
+.DivEntradaTienda {
     margin-bottom: 5vw !important;
-    width: 89%!important;
-  padding-left: 6vw!important;
+    width: 89% !important;
+    padding-left: 6vw !important;
 
-  margin-left: auto!important;
-  margin-right: auto!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
-.TituloSec2Tienda{
+
+.TituloSec2Tienda {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.4vw;  
-    font-weight: 600
-    ;
+
+    font-weight: 600;
 }
 
-.BotoTienda{
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
-    font-size:2vw !important;
+.BotoTienda {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 
-padding: 0.5vw 2vw;
+    padding: 0.5vw 2vw;
 
 
     position: absolute;
     top: 65%;
-    left:12%;
-    transform: translate(-50%, -100%)!important;
-        background: none;
-        border: 1px white solid;
-        color: inherit;
-        /* cursor: default; */
-        font: inherit;
-        line-height: normal;
-        overflow: visible;
-        -webkit-user-select: none; /* for button */
-         -webkit-appearance: button; /* for input */
-           -moz-user-select: none;
-            -ms-user-select: none;
-      color: white;
+    left: 12%;
+    transform: translate(-50%, -100%) !important;
+    background: none;
+    border: 1px white solid;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    -webkit-user-select: none;
+    /* for button */
+    -webkit-appearance: button;
+    /* for input */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: white;
 }
-.BotoTienda:hover{
+
+.BotoTienda:hover {
     background-color: rgba(255, 255, 255, 0.294);
 }
-.DescCaractTiend{
 
-    font-family: 'Roboto Mono', monospace;  
-    font-size: 1.1vw;  
+.DescCaractTiend {
+
+    font-family: 'Roboto Mono', monospace;
 }
-.TituloDescCarac{
+
+.TituloDescCarac {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.2vw;  
 }
-.DescTienda{
-    font-family: 'Roboto Mono', monospace;  
-    font-size: 1.2vw;  
+
+.DescTienda {
+    font-family: 'Roboto Mono', monospace;
 
 }
-.EntradaTienda2{
+
+.EntradaTienda2 {
     text-align: center;
     margin-bottom: 5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
 }
-.EntradaTienda{
+
+.EntradaTienda {
     text-align: center;
     margin-top: 5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.5vw;
-
-}
-.fotoIconosTienda{
-    display:block;
-    margin:auto;
-    height: 5vw;
-    width: 5vw;
 
 }
 
-.FotoTienda{
-    min-height:40vw;
-      background-size: 25px 50px;
-      background-size: 100% 100%;
-      background-image: url(../img/PRU1.jpg);
+.fotoIconosTienda {
+    display: block;
+    margin: auto;
+    height: 5rem;
+    width: 5rem;
 
-      clear: both!important;
-      width: 100% !important;
-      margin: 0 auto 0 !important;
-      position: relative !important;
-      max-width: 80% !important;
-    
-    
-    }
-   
-    /* color:rgba(255, 255, 255, 0.788); */
+}
 
-    .FotoTienda:before {
-        content:'';
-        position: absolute;
-            top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(0, 0, 0, 0.137);
-    }
+.FotoTienda {
+    min-height: 40vw;
+    background-size: 25px 50px;
+    background-size: 100% 100%;
+    background-image: url(../img/PRU1.jpg);
+
+    clear: both !important;
+    width: 100% !important;
+    margin: 0 auto 0 !important;
+    position: relative !important;
+    max-width: 80% !important;
+
+
+}
+
+/* color:rgba(255, 255, 255, 0.788); */
+
+.FotoTienda:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.137);
+}
