@@ -1,12 +1,97 @@
 .MantenimientoTitle{
 
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 28%;
+    left:27%;
     transform: translate(-50%, -100%)!important;
-    font-size:5vw !important;
+    font-size:4vw !important;
+    font-family: 'Playfair Display', serif;
+    color: white!important;
+width: 45%;
     font-family: 'Playfair Display', serif;
 }
+
+.DescTitle{
+    margin-top: 3vw;
+
+    color: white!important;
+    position: absolute;
+    top:45%;
+    left: 20%;
+    width: 30%;
+    transform: translate(-50%, -100%)!important;
+    font-size:1.4vw !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.BotonMantenimiento{
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    font-size:2vw !important;
+
+padding: 0.5vw 2vw;
+
+
+    position: absolute;
+    top: 65%;
+    left:12%;
+    transform: translate(-50%, -100%)!important;
+        background: none;
+        border: 1px white solid;
+        color: inherit;
+        /* cursor: default; */
+        font: inherit;
+        line-height: normal;
+        overflow: visible;
+        -webkit-user-select: none; /* for button */
+         -webkit-appearance: button; /* for input */
+           -moz-user-select: none;
+            -ms-user-select: none;
+      
+}
+.BotonMantenimiento:hover{
+    background-color: rgba(255, 255, 255, 0.294);
+}
+.DescMant{
+
+    text-align: center;
+    margin-left:auto!important ;
+    margin-right:auto!important ;
+    width: 50%;
+    font-family: 'Roboto Mono', monospace;  
+font-size: 1.3vw;  
+}
+
+hr.verticalMant {
+    width: 2px;
+    height: 2vw;
+    background-color:  #B22222;
+    margin-top: 3vw
+    ;
+    /* or height in PX */
+  }
+
+  .TituloMAnt1{
+    margin-top: 2vw;
+    text-align: center!important;
+    width: 100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 2vw;
+  }
+
+  .TituloMAnt2{
+    text-align: center!important;
+    width: 100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 2vw;
+font-size: 1vw;
+  }
+  .LineaMant{
+    width:10%;
+    background: #B22222!important;
+  }
+
+  
 .botonInfo{
     color: #fff!important;
     background: #B22222;
@@ -42,28 +127,20 @@ font-size: 1.2vw;
 }
 .MantTitulo{
     font-size: 2vw;
+    
 }
 .linea{
 margin-top: 0vw;
     border-top: 3px #B22222 solid;
   }
-.DescTitle{
 
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -100%)!important;
-    font-size:1.5vw !important;
-    font-family: 'Playfair Display', serif;
-    width: 90%;
-}
 
   
 .prue{
     min-height:40vw;
       background-size: 25px 50px;
       background-size: 100% 100%;
-      background-image: url(../img/mantenimiento2.jpg);
+      background-image: url(../img/mantenimiento.jpg);
       color:rgba(255, 255, 255, 0.788);
 
       clear: both!important;
@@ -81,5 +158,5 @@ margin-top: 0vw;
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: rgba(0,0,0,0.6);
+        background-color: rgba(0, 0, 0, 0.157);
     }

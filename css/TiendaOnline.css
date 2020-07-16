@@ -24,25 +24,84 @@ width: 50%;
 }
 .FotoOrdenador{
 width: 100%;
+
 }
 .DivTiendaInfo{
 margin-top: 2vw !important;
 margin-bottom: 2vw !important;
 text-align: center;
+width: 85%;
+margin-left: auto!important;
+margin-right: auto!important;
 
 }
 .DivEntradaTienda{
     margin-bottom: 5vw !important;
-    min-width: 80%!important;
+    width: 89%!important;
   padding-left: 6vw!important;
 
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+.TituloSec2Tienda{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.4vw;  
+    font-weight: 600
+    ;
+}
+
+.BotoTienda{
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    font-size:2vw !important;
+
+padding: 0.5vw 2vw;
+
+
+    position: absolute;
+    top: 65%;
+    left:12%;
+    transform: translate(-50%, -100%)!important;
+        background: none;
+        border: 1px white solid;
+        color: inherit;
+        /* cursor: default; */
+        font: inherit;
+        line-height: normal;
+        overflow: visible;
+        -webkit-user-select: none; /* for button */
+         -webkit-appearance: button; /* for input */
+           -moz-user-select: none;
+            -ms-user-select: none;
+      color: white;
+}
+.BotoTienda:hover{
+    background-color: rgba(255, 255, 255, 0.294);
+}
+.DescCaractTiend{
+
+    font-family: 'Roboto Mono', monospace;  
+    font-size: 1.1vw;  
+}
+.TituloDescCarac{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.2vw;  
+}
+.DescTienda{
+    font-family: 'Roboto Mono', monospace;  
+    font-size: 1.2vw;  
+
+}
+.EntradaTienda2{
+    text-align: center;
+    margin-bottom: 5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
 }
 .EntradaTienda{
     text-align: center;
     margin-top: 5vw;
-    margin-bottom: 5vw;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5vw;
 
 }
 .fotoIconosTienda{

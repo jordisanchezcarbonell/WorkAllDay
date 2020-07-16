@@ -24,7 +24,7 @@
 
 }
   .contact-section form .subject,   .contact-section form .content {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   
 }
@@ -40,7 +40,7 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 4vw;
   
@@ -141,7 +141,7 @@ margin-top: -1.2vw!important;
     color:rgba(255, 255, 255, 0.788);
 
     clear: both!important;
-    width: 100% !important;
+    width: 80% !important;
     margin: 0 auto 0 !important;
     position: relative !important;
     max-width: 100% !important;;
@@ -155,7 +155,7 @@ margin-top: -1.2vw!important;
       bottom: 0;
       left: 0;
       right: 0;
-      background-color: rgba(0,0,0,0.6);
+      background-color: rgba(0, 0, 0, 0.212);
   }
 
 
