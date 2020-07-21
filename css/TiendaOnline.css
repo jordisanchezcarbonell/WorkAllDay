@@ -29,11 +29,11 @@
     font-size: 1.5rem !important;
 
     padding: 0.5vw 2vw;
-color: white!important;
+    color: white !important;
 
     position: absolute;
     margin-top: 0%;
-    margin-left:0%;
+    margin-left: 0%;
     transform: translate(-50%, -100%) !important;
     background: none;
     border: 1px white solid;
@@ -53,8 +53,11 @@ color: white!important;
 .BotoTienda:hover {
     background-color: rgba(255, 255, 255, 0.294);
 }
+
 .FotoOrdenador {
     width: 100%;
+    margin-top: -3vw;
+
 
 }
 
@@ -79,7 +82,7 @@ color: white!important;
 
 .TituloSec2Tienda {
     font-family: Georgia, 'Times New Roman', Times, serif;
-font-size:2.5rem ;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -144,9 +147,9 @@ font-size:2.5rem ;
     margin-top: 4vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.2rem;
-width: 80%;
-margin-left: auto;
-margin-right: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fotoIconosTienda {
@@ -203,14 +206,16 @@ margin-right: auto;
 
     .BotoTienda {
         top: 95%;
-        font-size: 1rem!important;
+        font-size: 1rem !important;
         display: none;
 
     }
-    .EntradaTienda2{
+
+    .EntradaTienda2 {
         display: none;
     }
-    .EntradaTienda{
+
+    .EntradaTienda {
         display: none;
     }
 }
