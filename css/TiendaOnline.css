@@ -1,27 +1,58 @@
 .TiendaOnlineTitle {
 
     position: absolute;
-    margin-top: 13%;
-    margin-left: 30%;
+    margin-top: 20%;
+    margin-left: 27%;
     transform: translate(-50%, -100%) !important;
+    font-size: 2.3rem;
     font-family: 'Playfair Display', serif;
     color: white !important;
-    width: 50%;
+    width: 45%;
 
 }
 
 .TiendaOnlineTitleDesc2 {
     color: white !important;
     position: absolute;
-    margin-top: 20%;
+    margin-top: 27%;
     margin-left: 20%;
-    width: 30%;
+    width: 32%;
+    font-size: calc(0.3em + 1vw);
 
     transform: translate(-50%, -100%) !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
+.BotoTienda {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-size: 1.5rem !important;
+
+    padding: 0.5vw 2vw;
+color: white!important;
+
+    position: absolute;
+    margin-top: 0%;
+    margin-left:0%;
+    transform: translate(-50%, -100%) !important;
+    background: none;
+    border: 1px white solid;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    -webkit-user-select: none;
+    /* for button */
+    -webkit-appearance: button;
+    /* for input */
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.BotoTienda:hover {
+    background-color: rgba(255, 255, 255, 0.294);
+}
 .FotoOrdenador {
     width: 100%;
 
@@ -48,7 +79,7 @@
 
 .TituloSec2Tienda {
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+font-size:2.5rem ;
     font-weight: 600;
 }
 
@@ -100,13 +131,22 @@
     text-align: center;
     margin-bottom: 5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+
 }
 
 .EntradaTienda {
     text-align: center;
-    margin-top: 5vw;
+    margin-top: 4vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    font-size: 2.2rem;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .fotoIconosTienda {
@@ -142,4 +182,35 @@
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.137);
+}
+
+
+/* Por debajo de 700px */
+@media screen and (max-width: 700px) {
+    .TiendaOnlineTitle {
+        margin-top: 33%;
+
+        font-size: 1.2rem;
+
+    }
+
+    .TiendaOnlineTitleDesc2 {
+        font-size: 0.5rem;
+        margin-top: 40%;
+        display: none;
+
+    }
+
+    .BotoTienda {
+        top: 95%;
+        font-size: 1rem!important;
+        display: none;
+
+    }
+    .EntradaTienda2{
+        display: none;
+    }
+    .EntradaTienda{
+        display: none;
+    }
 }
