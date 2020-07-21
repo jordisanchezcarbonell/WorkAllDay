@@ -63,6 +63,8 @@
     margin-right: auto !important;
     width: 50%;
     font-family: 'Roboto Mono', monospace;
+    font-size:0.9rem;
+
 }
 
 hr.verticalMant {
@@ -78,6 +80,7 @@ hr.verticalMant {
     text-align: center !important;
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
 }
 
 .TituloMAnt2 {
@@ -85,6 +88,8 @@ hr.verticalMant {
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 2vw;
+    font-size: 1.5rem;
+
 }
 
 .LineaMant {
