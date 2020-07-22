@@ -107,37 +107,63 @@ hr.verticalMant {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    text-align: center;
+    text-align: center!important;
     min-width: 170px;
     max-width: 100%;
     padding: 0.8vw;
     display: inline-block;
     vertical-align: middle;
     max-height: 50px;
+    margin-left: auto!important;
+    margin-right: auto!important;
 
 }
 
-.botPrueba {
+.EspacioBotonTabla {
     margin-bottom: 5% !important;
 }
-
+.centrarTablas{
+    margin-left: auto;
+    margin-right: auto;
+}
 .margenmant {
     border-bottom: 1px rgba(128, 128, 128, 0.308) solid;
     width: 100%;
-    font-size: 1.2vw;
+    font-size: 0.9rem;
 }
 
 .TituloMAnt {
     background-color: #B22222;
     color: white;
     padding-bottom: 1vw;
+    font-family: 'Playfair Display', serif;
+padding-left: 8%;
 }
 
+
+.centrar{
+    -webkit-box-shadow: 35px 47px 145px -105px rgba(0,0,0,1);
+    -moz-box-shadow: 35px 47px 145px -105px rgba(0,0,0,1);
+    box-shadow: 35px 47px 145px -105px rgba(0,0,0,1);
+    color:black;
+
+
+  }
+  .CentrarBoton{
+
+text-align: center;
+  }
+.derechaMant{
+    text-align: right!important;
+
+}
 .PrecioMant {
 
-    background-color: rgba(207, 203, 203, 0.705);
-    margin-top: -2.6%;
-}
+    /* background-color: rgba(207, 203, 203, 0.705); */
+    /* margin-top: -2.6%; */
+    text-align: right!important;
+    font-family: 'Playfair Display', serif;
+margin-right: 4%;}
 
 .MantTitulo {
     font-size: 2vw;
@@ -175,6 +201,59 @@ hr.verticalMant {
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.157);
+}
+
+
+.card {
+    margin: 1em;
+    perspective: 1500px;
+  }
+  .card .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+  a:link:hover{
+    color:black;
+  }
+
+  a:link {text-decoration: none;
+  color:black }
+
+.textoCard{
+  color:black;
+}
+.textoCard:hover{
+  color:black;
+}
+  .centrar:hover {
+    transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .par{
+    color:black;
+
+    border-top: 3px #B22222 solid;
+  }
+
+
+
+.tachado{
+    text-decoration:line-through;
+    color: grey!important;
 }
 
 @media screen and (max-width: 700px) {
