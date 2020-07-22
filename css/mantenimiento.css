@@ -135,9 +135,12 @@ hr.verticalMant {
 .TituloMAnt {
     background-color: #B22222;
     color: white;
+    padding-top: 1vw;
+
     padding-bottom: 1vw;
     font-family: 'Playfair Display', serif;
 padding-left: 8%;
+font-size: 1.9rem;
 }
 
 
